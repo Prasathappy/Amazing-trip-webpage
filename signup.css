@@ -1,0 +1,50 @@
+.container {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f0f0f0;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+body{
+	background-image:url("https://images.pexels.com/photos/858076/pexels-photo-858076.jpeg?auto=compress&cs=tinysrgb&w=1200");
+}
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+form label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+form input, form textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+	background-color: #eaeaea;
+}
+form button {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: none;
+	background-color: #4CAF50;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+form button:hover {
+	background-color: #3e8e41;
+}
+
+.error {
+	border: 2px solid #ff0000;
+}
